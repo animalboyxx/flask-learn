@@ -19,7 +19,7 @@ menu = [{'name': 'Установка', 'url': 'install-flask'},
 def index():
     print(url_for('index'))
     return render_template('index.html', title='xcvjk', menu=menu)
-# fuck
+# holy fuck
 
 
 @app.route('/about')  # декоратор страницы
